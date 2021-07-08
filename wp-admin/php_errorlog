@@ -1,0 +1,10 @@
+[01-May-2021 02:42:26 UTC] PHP Warning:  in_array() expects parameter 2 to be array, bool given in /home/customer/www/zenjobc.sg-host.com/public_html/wp-content/plugins/all-in-one-wp-migration-multisite-extension/class.plugin-modules.php on line 464
+[01-May-2021 02:42:26 UTC] PHP Warning:  in_array() expects parameter 2 to be array, bool given in /home/customer/www/zenjobc.sg-host.com/public_html/wp-includes/functions.php on line 7878
+[01-May-2021 02:42:26 UTC] PHP Warning:  array_push() expects parameter 1 to be array, bool given in /home/customer/www/zenjobc.sg-host.com/public_html/wp-includes/functions.php on line 7879
+[01-May-2021 02:42:26 UTC] PHP Warning:  in_array() expects parameter 2 to be array, bool given in /home/customer/www/zenjobc.sg-host.com/public_html/wp-includes/functions.php on line 7884
+[01-May-2021 02:42:27 UTC] PHP Warning:  in_array() expects parameter 2 to be array, bool given in /home/customer/www/zenjobc.sg-host.com/public_html/wp-includes/functions.php on line 7882
+[01-May-2021 02:42:27 UTC] PHP Warning:  array_push() expects parameter 1 to be array, bool given in /home/customer/www/zenjobc.sg-host.com/public_html/wp-includes/functions.php on line 7883
+[01-May-2021 02:42:27 UTC] PHP Warning:  in_array() expects parameter 2 to be array, bool given in /home/customer/www/zenjobc.sg-host.com/public_html/wp-includes/functions.php on line 7888
+[01-May-2021 02:42:27 UTC] PHP Warning:  in_array() expects parameter 2 to be array, bool given in /home/customer/www/zenjobc.sg-host.com/public_html/wp-includes/functions.php on line 7886
+[01-May-2021 02:42:27 UTC] PHP Warning:  array_push() expects parameter 1 to be array, bool given in /home/customer/www/zenjobc.sg-host.com/public_html/wp-includes/functions.php on line 7887
+[01-May-2021 02:42:27 UTC] PHP Warning:  in_array() expects parameter 2 to be array, bool given in /home/customer/www/zenjobc.sg-host.com/public_html/wp-includes/functions.php on line 7892

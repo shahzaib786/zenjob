@@ -1,0 +1,7 @@
+[01-May-2021 02:20:33 UTC] wp_auto_login: trying to login user_id==1 loginusername=zenjobcareer@gmail.com to admin_url=https://zenjobc.sg-host.com/wp-admin/
+[01-May-2021 02:42:26 UTC] PHP Warning:  in_array() expects parameter 2 to be array, bool given in /home/customer/www/zenjobc.sg-host.com/public_html/wp-includes/functions.php on line 7878
+[01-May-2021 02:42:26 UTC] PHP Warning:  array_push() expects parameter 1 to be array, bool given in /home/customer/www/zenjobc.sg-host.com/public_html/wp-includes/functions.php on line 7879
+[01-May-2021 02:42:26 UTC] PHP Warning:  in_array() expects parameter 2 to be array, bool given in /home/customer/www/zenjobc.sg-host.com/public_html/wp-includes/functions.php on line 7884
+[01-May-2021 02:42:27 UTC] PHP Warning:  in_array() expects parameter 2 to be array, bool given in /home/customer/www/zenjobc.sg-host.com/public_html/wp-includes/functions.php on line 7884
+[01-May-2021 02:42:27 UTC] PHP Warning:  array_push() expects parameter 1 to be array, bool given in /home/customer/www/zenjobc.sg-host.com/public_html/wp-includes/functions.php on line 7885
+[01-May-2021 02:42:27 UTC] PHP Warning:  in_array() expects parameter 2 to be array, bool given in /home/customer/www/zenjobc.sg-host.com/public_html/wp-includes/functions.php on line 7890

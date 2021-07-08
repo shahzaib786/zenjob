@@ -1,0 +1,47 @@
+.elementor-37 .elementor-element.elementor-element-b5d8c57{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;margin-top:0px;margin-bottom:-90px;z-index:10;}.elementor-37 .elementor-element.elementor-element-b5d8c57 > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-37 .elementor-element.elementor-element-1e0ed15{text-align:center;}.elementor-37 .elementor-element.elementor-element-1e0ed15 > .elementor-widget-container{padding:0px 0px 0px 0px;}.elementor-bc-flex-widget .elementor-37 .elementor-element.elementor-element-e037b57.elementor-column .elementor-widget-wrap{align-items:center;}.elementor-37 .elementor-element.elementor-element-e037b57.elementor-column.elementor-element[data-element_type="column"] > .elementor-widget-wrap.elementor-element-populated{align-content:center;align-items:center;}.elementor-37 .elementor-element.elementor-element-0cb156c .elementor-menu-toggle{margin:0 auto;}.elementor-37 .elementor-element.elementor-element-0cb156c .elementor-nav-menu .elementor-item{font-family:"Montserrat", Sans-serif;font-size:20px;font-weight:600;}.elementor-37 .elementor-element.elementor-element-0cb156c .elementor-nav-menu--main .elementor-item{color:#FFFFFF;}.elementor-37 .elementor-element.elementor-element-0cb156c .elementor-nav-menu--main .elementor-item:hover,
+					.elementor-37 .elementor-element.elementor-element-0cb156c .elementor-nav-menu--main .elementor-item.elementor-item-active,
+					.elementor-37 .elementor-element.elementor-element-0cb156c .elementor-nav-menu--main .elementor-item.highlighted,
+					.elementor-37 .elementor-element.elementor-element-0cb156c .elementor-nav-menu--main .elementor-item:focus{color:#360F7E;}.elementor-37 .elementor-element.elementor-element-0cb156c .elementor-nav-menu--dropdown a, .elementor-37 .elementor-element.elementor-element-0cb156c .elementor-menu-toggle{color:#FFFFFF;}.elementor-37 .elementor-element.elementor-element-0cb156c .elementor-nav-menu--dropdown{background-color:#AEAEAE;}.elementor-37 .elementor-element.elementor-element-0cb156c .elementor-nav-menu--dropdown a:hover,
+					.elementor-37 .elementor-element.elementor-element-0cb156c .elementor-nav-menu--dropdown a.elementor-item-active,
+					.elementor-37 .elementor-element.elementor-element-0cb156c .elementor-nav-menu--dropdown a.highlighted,
+					.elementor-37 .elementor-element.elementor-element-0cb156c .elementor-menu-toggle:hover{color:#360F7E;}.elementor-37 .elementor-element.elementor-element-0cb156c .elementor-nav-menu--dropdown a:hover,
+					.elementor-37 .elementor-element.elementor-element-0cb156c .elementor-nav-menu--dropdown a.elementor-item-active,
+					.elementor-37 .elementor-element.elementor-element-0cb156c .elementor-nav-menu--dropdown a.highlighted{background-color:#AEAEAE;}.elementor-37 .elementor-element.elementor-element-0cb156c .elementor-nav-menu--dropdown .elementor-item, .elementor-37 .elementor-element.elementor-element-0cb156c .elementor-nav-menu--dropdown  .elementor-sub-item{font-family:"Montserrat", Sans-serif;font-weight:500;}.elementor-37 .elementor-element.elementor-element-0cb156c div.elementor-menu-toggle{color:#350F7D;}@media(max-width:1548px) and (min-width:1434px){.elementor-37 .elementor-element.elementor-element-e037b57{width:33.3%;}}@media(max-width:1548px){.elementor-37 .elementor-element.elementor-element-b5d8c57{margin-top:0px;margin-bottom:-110px;z-index:10;}.elementor-37 .elementor-element.elementor-element-1e0ed15 img{width:57%;}.elementor-37 .elementor-element.elementor-element-0cb156c .elementor-nav-menu .elementor-item{font-size:15px;}}@media(max-width:1433px){.elementor-37 .elementor-element.elementor-element-b5d8c57{margin-top:0px;margin-bottom:-57px;z-index:10;}.elementor-37 .elementor-element.elementor-element-9e45e4b{width:26%;}.elementor-37 .elementor-element.elementor-element-12dd207{width:50%;}.elementor-37 .elementor-element.elementor-element-1e0ed15{text-align:center;}.elementor-37 .elementor-element.elementor-element-1e0ed15 img{width:65%;}.elementor-37 .elementor-element.elementor-element-e037b57{width:22%;}}/* Start custom CSS for section, class: .elementor-element-b5d8c57 */header.sticky-header {
+    --header-height: 90px;
+    --opacity: 0.90;
+    --shrink-me: 0.80;
+    --sticky-background-color: #AEAEAE;
+    --transition: .3s ease-in-out;
+
+    transition: background-color var(--transition),
+                background-image var(--transition),
+                backdrop-filter var(--transition),
+                opacity var(--transition);
+}
+header.sticky-header.elementor-sticky--effects {
+    background-color: var(--sticky-background-color) !important;
+    background-image: none !important;
+    opacity: var(--opacity) !important;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+header.sticky-header &gt; .elementor-container {
+    transition: min-height var(--transition);
+}
+header.sticky-header.elementor-sticky--effects &gt; .elementor-container {
+    min-height: calc(var(--header-height) * var(--shrink-me))!important;
+    height: calc(var(--header-height) * var(--shrink-me));
+}
+header.sticky-header .elementor-nav-menu .elementor-item {
+    transition: padding var(--transition);
+}
+header.sticky-header.elementor-sticky--effects .elementor-nav-menu .elementor-item {
+    padding-bottom: 10px!important;
+    padding-top: 10px!important;
+}
+header.sticky-header &gt; .elementor-container .logo img {
+    transition: max-width var(--transition);
+}
+header.sticky-header.elementor-sticky--effects .logo img {
+    max-width: calc(100% * var(--shrink-me));
+}/* End custom CSS */
